@@ -1,11 +1,19 @@
 # trim
 
-gets copied text from clipboard and 
+gets copied text from clipboard and removes whitespace from all lines
 
-removes whitespace from all lines
+example: 
 
-finds "\n"
+apple
 
-finds "\t"
+  orange
 
-replaces these with "\r\n"
+pear
+
+becomes:
+
+apple
+
+orange
+
+pear
