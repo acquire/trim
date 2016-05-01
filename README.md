@@ -4,13 +4,13 @@ gets copied text from clipboard and removes whitespace from all lines
 
 example: 
 <style>
-ul{padding:0; margin:0;}
+ul, li {padding:0; margin:0; list-style-type: none;}
 </style>
-<li>
-  <ul>apple</ul>
-  <ul>&nbsp;&nbsp;orange</ul>
-  <ul>pear</ul>
-</li>
+<ul>
+  <li>apple</li>
+  <li>&nbsp;&nbsp;orange</li>
+  <li>pear</li>
+</ul>
 
 becomes:
 
