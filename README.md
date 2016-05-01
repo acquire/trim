@@ -3,12 +3,13 @@
 gets copied text from clipboard and removes whitespace from all lines
 
 example: 
+<li>
+<ul>apple</ul>
 
-apple
+<ul>&nbsp;&nbsp;orange</ul>
 
-&nbsp;&nbsp;orange
-
-pear
+<ul>pear</ul>
+</li>
 
 becomes:
 
